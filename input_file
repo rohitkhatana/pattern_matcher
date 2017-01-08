@@ -1,0 +1,20 @@
+6
+*,b,*
+a,*,*
+*,*,c
+foo,bar,baz
+w,x,*,*
+*,x,y,z
+5
+/w/x/y/z/
+a/b/c
+foo/
+foo/bar/
+foo/bar/baz/
+
+Example Output 
+*,x,y,z 
+a,*,* 
+NO MATCH 
+NO MATCH 
+foo,bar,baz 
